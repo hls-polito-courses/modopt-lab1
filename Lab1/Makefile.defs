@@ -1,6 +1,9 @@
 ## Variable that points to SystemC installation path
-# SYSTEMC = /software/SystemC/systemc-2.2.0/ # If you are working on shaheen
-SYSTEMC =  /usr/local/systemc-2.3.3 # If you are working on wormtongue
+
+## If you are working on shaheen
+# SYSTEMC = /software/SystemC/systemc-2.2.0/
+## If you are working on wormtongue
+SYSTEMC = /usr/local/systemc-2.3.3
 ## edit this to gccsparcOS5 for solaris
 ET_ARCH = linux
 TARGET_ARCH = linux64
